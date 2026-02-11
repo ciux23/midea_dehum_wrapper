@@ -1,0 +1,8 @@
+{
+  "name": "Midea Dehumidifier Wrapper",
+  "render_readme": true,
+  "domains": ["humidifier"],
+  "country": "IT",
+  "homeassistant": "2024.1.0",
+  "iot_class": "local_polling"
+}
