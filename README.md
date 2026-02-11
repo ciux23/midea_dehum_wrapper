@@ -17,19 +17,21 @@ Home Assistant custom integration that wraps a Midea dehumidifier climate entity
 ## Installation
 
 ### HACS (recommended)
-1. Add this repository as a custom repository in HACS
-2. Search for "Midea Dehumidifier Wrapper"
-3. Install
+1. Add this custom repository to HACS: https://github.com/ciux23/midea_dehum_wrapper/tree/main
+2. Search for "Midea Dehumidifier Wrapper" in HACS
+3. Install the integration
+4. Restart Home Assistant
 
 ### Manual
-Copy `custom_components/midea_dehum_wrapper/` to your `config/custom_components` directory.
+1. Download the [latest release](https://github.com/ciux23/midea_dehum_wrapper/releases)
+2. Copy `custom_components/midea_dehum_wrapper/` to your `config/custom_components` directory
+3. Restart Home Assistant
 
 ## Configuration
 
-1. Restart Home Assistant
-2. Go to Settings → Devices & Services → Add Integration
-3. Search for "Midea Dehumidifier Wrapper"
-4. Select your dehumidifier climate entity
+1. Go to Settings → Devices & Services → Add Integration
+2. Search for "Midea Dehumidifier Wrapper"
+3. Select your dehumidifier climate entity
 
 ## Usage
 
@@ -37,11 +39,19 @@ Your dehumidifier will appear as a native `humidifier` entity with:
 - ON/OFF toggle
 - Target humidity slider
 - Mode selector containing:
-  - Original preset modes (Setpoint, Continuous, Smart, ClothesDrying)
-  - Fan speeds (Fan: low, Fan: medium, Fan: high)
+- Original preset modes (Setpoint, Continuous, Smart, ClothesDrying)
+- Fan speeds (Fan: low, Fan: medium, Fan: high)
 
-[releases-shield]: https://img.shields.io/github/v/release/tuo-username/midea-dehum-wrapper.svg?style=for-the-badge
-[releases]: https://github.com/tuo-username/midea-dehum-wrapper/releases
-[commits-shield]: https://img.shields.io/github/commit-activity/y/tuo-username/midea-dehum-wrapper.svg?style=for-the-badge
-[commits]: https://github.com/tuo-username/midea-dehum-wrapper/commits/main
-[license-shield]: https://img.shields.io/github/license/tuo-username/midea-dehum-wrapper.svg?style=for-the-badge
+## Support
+
+- [GitHub Issues](https://github.com/ciux23/midea_dehum_wrapper/issues)
+
+## License
+
+MIT
+
+[releases-shield]: https://img.shields.io/github/v/release/ciux23/midea_dehum_wrapper.svg?style=for-the-badge
+[releases]: https://github.com/ciux23/midea_dehum_wrapper/releases
+[commits-shield]: https://img.shields.io/github/commit-activity/y/ciux23/midea_dehum_wrapper.svg?style=for-the-badge
+[commits]: https://github.com/ciux23/midea_dehum_wrapper/commits/main
+[license-shield]: https://img.shields.io/github/license/ciux23/midea_dehum_wrapper.svg?style=for-the-badge
