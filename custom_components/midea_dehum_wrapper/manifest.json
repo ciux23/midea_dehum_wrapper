@@ -1,0 +1,13 @@
+{
+  "domain": "midea_dehum_wrapper",
+  "name": "Midea Dehumidifier Wrapper",
+  "version": "0.1.0",
+  "documentation": "https://github.com/ciux23/midea-dehum-wrapper",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@ciux23"],
+  "iot_class": "local_polling",
+  "config_flow": true,
+  "loggers": ["custom_components.midea_dehum_wrapper"],
+  "quality_scale": "internal"
+}
